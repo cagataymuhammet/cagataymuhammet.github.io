@@ -1,0 +1,9 @@
+﻿#footer {
+    width:100%;
+    text-align:center;
+    border-top:5px solid #07BFB6;
+    background:#222;
+    padding:15px 0;
+    font-family: Segoe UI,sans-serif;
+    color:rgba(255, 255, 255, 0.6);
+}

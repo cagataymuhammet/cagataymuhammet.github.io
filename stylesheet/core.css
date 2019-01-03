@@ -1,0 +1,138 @@
+﻿html, body, div, span, applet, object, iframe, input, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+::selection {
+    background: rgba(0,0,0,0.1);
+}
+
+::-moz-selection {
+    background: rgba(0,0,0,0.1);
+}
+
+html, body {
+    background: #222222;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    min-height: 100%;
+}
+
+a, a:visited, a:link {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    a:hover {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+.transition {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+ul, ol {
+    list-style: none outside none;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #F8F8F8;
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-style: solid none;
+    border-width: 1px 0;
+    clear: both;
+    display: block;
+    float: none;
+    height: 0;
+    line-height: 0;
+    margin: 16px 0;
+    padding: 0;
+}
+
+em {
+    font-style: italic;
+}
+
+.fontRoboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fontOpen {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fontDroid {
+    font-family: 'Droid Serif', serif;
+}
+
+.fontSlabo {
+    font-family: 'Slabo 27px', serif;
+}
+
+.fontOswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.fontLobster {
+    font-family: 'Lobster', cursive;
+}
+
+.fontTitillium {
+    font-family: 'Titillium Web', sans-serif;
+}

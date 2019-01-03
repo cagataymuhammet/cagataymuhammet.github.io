@@ -1,0 +1,375 @@
+﻿#contentOut {
+    width: 100%;
+    background: #fff;
+    padding: 40px 0;
+}
+
+#content {
+    width: 980px;
+    margin: auto;
+}
+
+    #content #contentCv {
+        width: 100%;
+        background: #F8F8F8;
+        border:1px solid #07BFB6;
+        position: relative;
+        border-radius: 3px;
+        margin-bottom: 30px;
+    }
+
+#contentCv #cvLeft {
+    width: 300px;
+    height: 321px;
+    margin: 30px;
+    border: 1px solid #888;
+    float: left;
+}
+
+    #contentCv #cvLeft img {
+        width: 100%;
+        -webkit-filter: grayscale(70%);
+        filter: grayscale(70%);
+        transition: all 0.5s ease;
+    }
+
+        #contentCv #cvLeft img:hover {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            transition: all 0.5s ease;
+        }
+
+#contentCv #cvRight {
+	
+	
+    width: 580px;
+    float: left;
+    margin-top: 30px;
+}
+
+
+
+
+    #contentCv #cvRight hr{
+        border-bottom: 1px solid rgb(7, 191, 182);
+    }
+    #contentCv #cvRight h2 {
+        font-family: "Open Sans",sans-serif;
+        font-weight: normal;
+        color: #07BFB6;
+        font-size: 24px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+
+    #contentCv #cvRight p {
+        font-size: 14px;
+        text-indent: 30px;
+        text-align: justify;
+        color: #333;
+    }
+
+.contactLeft {
+    width: 50%;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    color: #222;
+}
+
+.contactCenter {
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    color: #222;
+}
+
+    .contactCenter span {
+        padding-right: 10px;
+        font-size: 18px;
+        color: #07BFB6;
+        position: relative;
+        bottom: -3px;
+    }
+
+.contactLeft span {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #07BFB6;
+    position: relative;
+    bottom: -3px;
+}
+
+.contactRight {
+    width: 50%;
+    height: 30px;
+    float: right;
+    font-size: 14px;
+    color: #222;
+}
+
+    .contactRight span {
+        padding-right: 10px;
+        font-size: 18px;
+        color: #07BFB6;
+        position: relative;
+        bottom: -3px;
+    }
+
+#social {
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    margin: 15px 0;
+}
+
+    #social span {
+        font-size: 22px;
+        border: 1px solid rgba(150, 150, 150, 0.39);
+        padding: 5px;
+        border-radius: 50%;
+        margin-right: 5px;
+        background: rgba(50, 50, 50, 0.1) none repeat scroll 0% 0%;
+		
+        color: rgba(50, 50, 50, 0.9);
+		
+		color: #fff;
+            background: #07BFB6;
+
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+        #social span:hover {
+            color: #fff;
+            background: #07BFB6;
+			 background: #f84049;
+			
+            transition: all 0.5s ease;
+        }
+		
+		
+
+#content #content3column {
+    width: 100%;
+}
+
+    #content #content3column .column {
+        width: 27%;
+        float: left;
+        border-left:1px solid #07bfb6;
+        padding: 0 3%;
+        height: 150px;
+    }
+
+        #content #content3column .column h5 {
+            color: #07BFB6;
+            font-family: "Open Sans",sans-serif;
+            padding-bottom: 5px;
+        }
+
+        #content #content3column .column p {
+            color: #333;
+            font-size: 14px;
+            border-top: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+            padding-top: 5px;
+        }
+
+        #content #content3column .column:first-child {
+            border: none;
+        }
+
+            #content #content3column .column:first-child p {
+                text-align: center;
+            }
+
+        #content #content3column .column:last-child p {
+        }
+
+.fontTag {
+    color: #333 !important;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font26 {
+    font-size: 28px;
+}
+
+.wordsAboutMe ul {
+    border-top: 1px solid #f0f0f0;
+    padding: 5px 0;
+}
+
+    .wordsAboutMe ul li {
+        display: inline-block;
+        font-size: 14px;
+        color: #333;
+    }
+.lessonTitle{
+    background: #07BFB6;
+    display: inline-block;
+    width: 660px;
+    height: 35px;
+    position: relative;
+    line-height: 35px;
+    padding-left: 10px;
+    font-weight: normal;
+    border-bottom: 2px solid rgba(50,50,50,0.3);
+    font-family: 'Open Sans',serif;
+    color: #f5f5f5;
+}
+.lessonTitle span{
+    width: 85px;
+    height: 29px;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -42px;
+    background: white;
+    top: 5px;
+}
+.lessonTitle label{
+    position: relative;
+    top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+.contentLesson{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contentLesson li{
+    padding: 5px;
+}
+.contentLesson li a label{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #cf0101;
+}
+.contentLesson li a span{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444;
+}
+.contentLesson li a{
+    font-size: 14px;
+    color: #222;
+    line-height: 20px;
+}
+.contentLesson li:hover a{
+    color: #cf0101;
+    font-weight: bold;
+}
+.contentLesson li:hover a span{
+    font-weight: normal;
+}
+#cvHead{
+background: #F8F8F8;
+border: 1px solid #07BFB6;
+padding: 30px 40px;
+border-radius: 2px;
+}
+#cvHeadLeft{
+width: 630px;
+float: left;
+padding-left: 10px;
+}
+#cvHeadLeft h2{
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    color: #07BFB6;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#cvHeadLeft h3{
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#cvHeadRight{
+width: 240px;
+float: left;
+text-align: center;
+overflow: hidden;
+border: 1px solid #07BFB6;
+height: 233px;
+border-radius: 50%;
+background: rgba(200,200,200,0.1);
+}
+#cvHeadRight img{
+width: 240px;
+position: relative;
+left: 14px;
+top: 2px;
+}
+#cvHeadLeft hr{
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}
+#cvHeadLeft h4{
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    color: #07BFB6;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+#cvHeadLeft h4 span{
+    margin-right: 7px;
+    font-size: 20px;
+}
+#cvHeadLeft table{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;   
+}
+#cvHeadLeft table td {
+    color: #333;
+    letter-spacing: 0.4px; 
+}
+.uniLogo{
+    padding-right: 7px;
+}
+.uniLogo img{
+    width: 75px;
+}
+.trUni td{
+    padding-bottom: 20px;
+}
+
+
+.trUni:last-child td{
+    padding-bottom: 0;
+}
+
+
+.ProjeTr td{
+    padding-bottom: 5px;
+	padding-right: 5px;
+}
+.projeLogo img{
+    width: 32px;
+	height:32px;
+}
+
+
+
+
+
